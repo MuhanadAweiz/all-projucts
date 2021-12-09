@@ -1,0 +1,83 @@
+.heading {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -20px;
+    background-image: linear-gradient(#36b3a8, #76D7C4);
+    height: 200px;
+    font-size: 0.8cm
+  }
+  .header1 {
+    letter-spacing: 0.0666667em;
+    font-size: 2cm;
+    font-weight: bold;
+    margin-left: 300px;
+    color: white;
+  }
+  .button1 {
+    margin-left: 300px;
+    margin-top: -50px;
+    height: 100px;
+  }
+  .test1 {
+    margin-top: 80px;
+    margin-left: 145px;
+  }
+  .information {
+    float: right;
+    margin-right: 570px;
+    margin-top: 100px;
+  }
+  .header2 {
+    font-family: inherit;
+    color: black;
+    font-size: 0.8cm;
+  }
+  .header3 {
+    text-decoration: underline;
+    font-size: 0.8cm;
+    color: #99A3A4;
+    letter-spacing: 5px;
+    margin-left: 150px;
+    height: 50px;
+    margin-top: 70px;
+  }
+  #answers {
+    margin-left: 90px;
+    line-height: 37px;
+  }
+  #button2 {
+    border-radius: 12px;
+    margin-top: 30px;
+    width: 150px;
+    background-color: #76D7C4;
+    color: white;
+    font-size: 0.5cm;
+  }
+  #result {
+    font-size: 0.5cm;
+    margin-top: 20px;
+    font-family: monospace;
+  }
+  .footer {
+    margin-top: 50px;
+    margin-left: 350px;
+  }
+  #button3 {
+    border-radius: 12px;
+    margin-top: 30px;
+    width: 150px;
+    background-color: #76D7C4;
+    color: white;
+    font-size: 0.5cm;
+    margin-left: 20px;
+  }
+  .btn {
+    border-radius: 50%;
+    margin-top: 30px;
+    width: 150px;
+    background-color: #76D7C4;
+    color: black;
+    font-size: 0.5cm;
+    margin-left: 20px;
+    margin-top: 10px;
+  }

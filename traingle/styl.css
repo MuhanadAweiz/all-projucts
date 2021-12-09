@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(0, 255, 64);
+}
+.container{
+    width: 1040px;
+    margin: 0 auto;
+    display: flex;
+
+}
+.heading h1,h3{
+  text-align: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 240px;
+    margin-top: 120px;
+}
+.input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 1px 1px 3px 1px  rgba(30, 151, 151, 0.801);;
+}
+#submit{
+    box-shadow: 0 3px 1px 1px;
+    border-radius: 10px;
+    border: none;
+    width: 90px;
+    height: 40px;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(231, 15, 0);
+}
+.input:hover{
+    outline: rgb(0, 0, 0);
+    padding: 10px;
+}
+.pragraph{
+    font-size: 1.3rem;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px 1px  rgba(30, 151, 151, 0.801);;
+
+}

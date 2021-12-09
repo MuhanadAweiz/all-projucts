@@ -1,0 +1,148 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'nunito',sans-serif;
+}
+
+body{
+  background-color: #fff;
+}
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.sidebar{
+  width: 30%;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.picture_info{
+  width:50%;
+  margin-left: 10px;
+  margin-top: 70px;
+  padding-bottom: 20px;
+}
+.picture_info img{
+  width: 100%;
+}
+.text_info{
+  width: 100%;
+  height: 90vh;
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.obejective_para{
+  margin-top: -80px;
+}
+h3{
+  color: #3870ff;
+}
+.education_Para .date{
+  color: #89a9fa;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.para4 h3{
+  text-align: right;
+  padding-bottom: 20px;
+}
+.para2{
+  color: #89a9fa;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.para1 h3{
+  padding-bottom: 20px;
+}
+.para1 .date{
+  color: #89a9fa;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.para3 h3{
+  padding-bottom: 20px;
+}
+.content{
+  width: 70%;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content_body{
+  width: 100%;
+  height: 87%;
+}
+.skills{
+  color: #89a9fa;
+}
+.header_card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left_card h1{
+  font-size: 2rem;
+  color: #3870ff;
+  margin-bottom: -5px;
+}
+.left_card .small_title{
+  color: #5987fa;
+  font-weight: 900;
+  font-size: 12px;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.contact_nav{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.contact_nav a{
+  margin: 2px 0;
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+}
+.card_info{
+  margin: 50px auto;
+  font-weight: 700;
+  font-size: 16px;
+}
+.card_title_info{
+  margin: 40px 0;
+}
+.card_title_small{
+  margin-left: 50px;
+  color: #222;
+  font-weight: 900;
+}
+.card_title_info a{
+  text-decoration: none;
+  color: #575757;
+  font-weight: 600;
+  margin: 20px 0;
+}
+@media screen and (min-width: 480px) {
+  body{
+    background-color: #f7f7f7	;
+  }
+@media screen and (min-width: 600px) {
+    body{
+      background-color: #f7f7f7	;
+    }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <script src="java/javascript.js"></script><title>Quiz Board</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1 class="header1">Quiz Board</h1>
+      </div>
+      
+      <div class="information">
+        <h2 class="header2">What is quiz board?</h2>
+      </div>
+      <div class="button1">
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#myModal">Click Here!</button>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Quiz board is...</h4>
+            </div>
+            <div class="modal-body">
+              <p>A website that offers multiple choice questions to students. Students get to test their understanding of the content that they have covered.</p>
+              <p>The student should ensure that they answer all the qusetions.</p>
+              <p>On completion, click on the submit button upon which you'll receive your results.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 class="header3">Quiz Board</h3>
+      <div id="answers">
+        <form id="add">
+          <p><b>1. Somaliya xurnimada waxee qaadatay sanad kii?</b></p>
+            <input type="radio" name="question1" value="wrong" /> Sanad ka 1988.<br />
+            <input type="radio" name="question1" value="wrong" /> Sanad ka 1984.<br />
+            <input type="radio" name="question1" value="wrong" /> Sanad ka 1930.<br />
+            <input type="radio" name="question1" value="right" /> Sanad ka 1960.<br />
+          <p><b>2. Caasimda dalka somaliya waa?</b></p>
+            <input type="radio" name="question2" value="right" /> Muqdisho.<br />
+            <input type="radio" name="question2" value="wrong" /> Hargeysa.<br />
+            <input type="radio" name="question2" value="wrong" /> Puntland.<br />
+            <input type="radio" name="question2" value="wrong" /> London.<br />
+          <p><b>3. Somaliya waxaa gumeystay dalka?</b></p>
+            <input type="radio" name="question3" value="wrong" /> France.<br />
+            <input type="radio" name="question3" value="wrong" /> England.<br />
+            <input type="radio" name="question3" value="right" /> Itali.<br />
+            <input type="radio" name="question3" value="wrong" /> Canada.<br />
+          <p><b>4. Urur kii SYl waxaa kamid eh?</b></p>
+            <input type="radio" name="question4" value="wrong" /> Maxame Yabarow.<br />
+            <input type="radio" name="question4" value="wrong" /> Xusen Ali.<br />
+            <input type="radio" name="question4" value="wrong" /> Mustaf Dahir<br />
+            <input type="radio" name="question4" value="right" /> Dhere xaaji Dheere<br />
+          <p><b>5. Urur ka SYL waxaa la abaa bulay san kii?</b></p>
+            <input type="radio" name="question5" value="wrong" /> 1948.<br />
+            <input type="radio" name="question5" value="wrong" /> 1987.<br />
+            <input type="radio" name="question5" value="wrong" /> 1787.<br />
+            <input type="radio" name="question5" value="right" /> 1943.<br />
+          <button type="button" id="button2">Submit!</button>
+          <input type="reset" id="button3">
+        </form>
+        <p>___________________________________________________</p>
+        <div id="result"></div>
+      </div>
+      <p>___________________________________________________</p>
+    </div>
+  </body>
+</html>

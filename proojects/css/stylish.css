@@ -1,0 +1,56 @@
+/* dashboard css customize */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 90px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    z-index: 99;
+}
+
+@media (max-width: 767.98px) {
+    .sidebar {
+        top: 11.5rem;
+        padding: 0;
+    }
+}
+
+.navbar {
+  background-color: #45526e;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .1);
+}
+
+@media (min-width: 767.98px) {
+    .navbar {
+        top: 0;
+        position: sticky;
+        z-index: 999;
+    }
+}
+
+.sidebar{
+  background: #45526e;
+}
+.sidebar .nav-item a{
+  color: #fff;
+}
+.sidebar .nav-link {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.sidebar .nav-link.active {
+    color: var(--text-color);
+}
+
+.nav li a:hover {
+  text-decoration: none;
+  color: var(--text-color);
+  background: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: #fff 2px solid;
+}
